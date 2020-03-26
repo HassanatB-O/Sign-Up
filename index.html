@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sign Up</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        button {
+            font-size: 30px;
+            background-color: transparent;
+            color: skyblue;
+            border: none;
+            float: right;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+
+        legend,
+        label {
+            font-size: 25px;
+            font-weight: bold;
+            color: skyblue;
+        }
+
+        footer {
+            text-align: center;
+            color: slateblue;
+        }
+    </style>
+</head>
+
+<body>
+    <button><a href=.signin.html>Sign In</a></button>
+    <h1>Sign Up to HOB</h1>
+    <form>
+        <legend for="Surname">Surname</legend>
+        <br><input type="text" name="Surname" id="Surname" placeholder="Enter your surname"><br><br>
+        <legend for="Firstname">First Name</legend>
+        <input type="text" name="Firstname" id="firstname" placeholder="Enter your first name"><br><br>
+        <legend for="Othernames">Other names</legend>
+        <input type="text" name="Othernames" id="Othernames" placeholder="Othernames"><br><br>
+        <legend for="Username">Username</legend>
+        <input type="text" name="username" id="username" placeholder="Enter a unique username"><br><br>
+        <legend for="email">Email Address</legend>
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+        <legend for="Mobile number">Mobile number</legend>
+        <input type="tel" name="Mobile number" id="Mobile number"><br><br>
+        <legend for="DOB">Date of birth</legend>
+        <input type="date" name="DOB" id="DOB"><br><br>
+        <legend for="Password">Password</legend>
+        <textarea type="password" name="Password" id="password"
+            placeholder="8+ characters which must include upper case, lower case, a number and a special character(@,#)"
+            cols="95" rows="1"></textarea><br><br>
+        <input type="checkbox" id="T/S" name="T/S" value="T/S">
+        <label for="T/S">By clicking, it means you have read and accepted our <a href=..\SignUp\TC.html>Terms and
+                conditions</a> and <a href=..\SignUp\PP.html>Privacy Policy</a>.</label>
+    </form>
+    <footer>
+        <p>@2020 Developed by Busari Hassanat</p>
+        <a href="https://www.twitter.com/HOBespecial/" target="blank" />
+        <div class="column">
+            <img src="logo.png" alt="LOGO" width="75px" height="75px" />
+        </div>
+    </footer>
+</body>
+
+</html>
